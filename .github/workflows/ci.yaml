@@ -8,14 +8,14 @@ on:
 
 jobs:
   learn:
-    name: Build
+    name: lea
     runs-on: ubuntu-latest
     steps:
       - name: Build message
         run: echo "Build job completed successfully!"
 
   understand:
-    name: Test
+    name: Te
     runs-on: ubuntu-latest
     needs: learn
     steps:
@@ -23,7 +23,7 @@ jobs:
         run: echo "Test job completed successfully!"
 
   work:
-    name: Deploy
+    name: Dep
     runs-on: ubuntu-latest
     needs: understand
     steps:
